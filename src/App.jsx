@@ -9,11 +9,13 @@ import News from './pages/News';
 import Contact from './pages/Contact';
 
 import { LanguageProvider } from './context/LanguageContext';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
   return (
     <LanguageProvider>
       <Router>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen bg-background-light dark:bg-background-dark font-display text-charcoal dark:text-gray-100 transition-colors duration-300">
           <Navbar />
           <main className="flex-grow">

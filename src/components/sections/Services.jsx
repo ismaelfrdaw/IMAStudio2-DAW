@@ -3,7 +3,7 @@ import { Card } from '../ui/Card';
 import { Section } from '../ui/Section';
 import { Heading, Text } from '../ui/Typography';
 import { useLanguage } from '../../context/LanguageContext';
-import { FadeIn, StaggerContainer, FadeInItem } from '../ui/Motion';
+import { StaggerContainer, FadeInItem, SlideInRight } from '../ui/Motion';
 import { Link } from 'react-router-dom';
 
 export const Services = () => {
@@ -22,7 +22,8 @@ export const Services = () => {
 
     return (
         <Section className="bg-white dark:bg-background-dark overflow-hidden">
-            <FadeIn>
+            {/* Title enters from the right for variety */}
+            <SlideInRight>
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <Heading level={2}>
                         {t.services.title}
@@ -31,11 +32,15 @@ export const Services = () => {
                         {t.services.subtitle}
                     </Text>
                 </div>
-            </FadeIn>
+            </SlideInRight>
 
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" staggerDelay={0.15}>
                 {t.services.items.map((service, index) => (
-                    <FadeInItem key={index} className="h-full">
+                    <FadeInItem
+                        key={index}
+                        className="h-full"
+                        direction={index % 2 === 0 ? "scale" : "up"}
+                    >
                         <Link to="/contact">
                             <Card className="group h-full flex flex-col cursor-pointer overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
                                 {/* Image Area */}
