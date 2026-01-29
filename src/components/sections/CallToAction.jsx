@@ -43,11 +43,13 @@ export const CallToAction = () => {
                     <Text variant="lead" className="text-gray-300 mb-12 max-w-2xl mx-auto">
                         {t.cta.desc}
                     </Text>
-                    <Link to="/contact">
-                        <Button className="bg-primary text-white hover:bg-white hover:text-black border-none px-12 h-16 font-black shadow-2xl shadow-primary/20 rounded-full transition-all hover:scale-105 active:scale-95">
-                            {t.cta.btn}
-                        </Button>
-                    </Link>
+                    <div className="flex justify-center">
+                        <Link to="/contact">
+                            <Button className="bg-primary text-white hover:bg-white hover:text-black border-none px-12 h-16 font-black shadow-2xl shadow-primary/20 rounded-full transition-all hover:scale-105 active:scale-95">
+                                {t.cta.btn}
+                            </Button>
+                        </Link>
+                    </div>
                 </FadeIn>
             </Section>
         </div>
