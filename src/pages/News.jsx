@@ -35,7 +35,10 @@ const News = () => {
                         {t.news.tags.insight}
                     </span>
                     <Heading level={1}>{t.news.title}</Heading>
-                    <Text className="mt-4 max-w-2xl mx-auto">{t.news.subtitle}</Text>
+                    <Text className="mt-4 max-w-2xl mx-auto mb-10">{t.news.subtitle}</Text>
+                    <button className="bg-[#2b65e2] text-white px-8 py-4 rounded-xl font-bold text-sm shadow-xl hover:bg-blue-600 transition-colors uppercase tracking-widest">
+                        Suscríbete a Nuestra Newsletter
+                    </button>
                 </FadeIn>
 
                 <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 text-left">
@@ -58,7 +61,11 @@ const News = () => {
                                     <span className="text-[10px] font-bold text-secondary uppercase tracking-[0.15em]">Jan 29, 2026</span>
                                 </div>
                                 <Heading level={3} className="text-xl mb-3 group-hover:text-primary transition-colors leading-tight">{item.title}</Heading>
-                                <Text variant="small" className="line-clamp-3 text-secondary/80 dark:text-gray-400">{item.desc}</Text>
+                                <Text variant="small" className="line-clamp-3 text-secondary/80 dark:text-gray-400 mb-6">{item.desc}</Text>
+                                <div className="flex items-center gap-2 text-primary text-[11px] font-black uppercase tracking-widest group-hover:gap-4 transition-all">
+                                    <span>Leer más</span>
+                                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                                </div>
                             </div>
                         </FadeInItem>
                     ))}

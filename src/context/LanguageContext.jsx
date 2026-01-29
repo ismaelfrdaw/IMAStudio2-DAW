@@ -140,6 +140,40 @@ export const translations = {
                 { category: "Design", title: "Minimalism vs Maximalism", desc: "Which approach wins in the era of short attention spans? Analysis of top trends.", image: "/media/imagenes/oficina.png" },
                 { category: "Tech", title: "AI in Creative Workflows", desc: "Our team shares how we integrate GenAI while maintaining human creativity.", image: "/media/imagenes/equipo.png" }
             ]
+        },
+        portfolio: {
+            title: "Work That Speaks for Itself",
+            subtitle: "Projects in branding, web, SEO and digital campaigns",
+            btn: "View Case Studies",
+            items: [
+                { title: "Impactful Graphic Design", desc: "Visual identity creation and marketing materials for a fashion brand." },
+                { title: "Modern Web Development", desc: "Responsive e-commerce platform for a handmade products store." },
+                { title: "Successful SEO Strategy", desc: "Organic positioning improvement for a tourism services company." },
+                { title: "Creative Online Marketing", desc: "Social media advertising campaign with high engagement for a festival." }
+            ]
+        },
+        about_page: {
+            hero_title: "Meet Our Agency",
+            hero_subtitle: "Driving digital success with passion and experience.",
+            hero_btn: "Let's talk about your project",
+            history_title: "Our History",
+            history_subtitle: "From our beginnings until today",
+            history_p1: "Founded in 2015, our agency was born with the vision of transforming the digital landscape for companies of all sizes. We started as a small team of marketing enthusiasts, and over time, we have grown to become a benchmark in the sector, always maintaining our essence of innovation and closeness with the client.",
+            history_p2: "Over the years, we have overcome challenges, celebrated successes and, most importantly, helped countless brands reach their goals. Our evolution is a reflection of the trust our clients place in us and our unwavering commitment to excellence.",
+            mission_title: "Our Mission",
+            mission_desc: "Empower brands through innovative and personalized digital strategies, generating a significant and lasting impact on their growth and recognition.",
+            vision_title: "Our Vision",
+            vision_desc: "To be the leading digital marketing agency, recognized for our creativity, exceptional results and the ability to anticipate and reshape the future of the digital landscape."
+        },
+        services_page: {
+            hero_title: "Our Digital Services",
+            hero_subtitle: "Comprehensive solutions to drive your online presence.",
+            hero_btn: "Request a Free Consultation",
+            discover_title: "Discover How We Can Help You",
+            feature_title: "Graphic Design: Your Brand, Our Creativity",
+            feature_subtitle: "Visual Identity that Connects",
+            feature_p1: "In our agency, we understand that design is more than aesthetics; it is the visual voice of your brand. We create impactful visual identities that resonate with your audience and transmit your values. From memorable logos to complete brand manuals, every design element is crafted with precision and creativity.",
+            feature_p2: "Our services include logo design, corporate branding, advertising materials (brochures, banners), social media design and much more. We work closely to ensure each visual piece is not only attractive, but also strategic."
         }
     },
     es: {
@@ -279,6 +313,40 @@ export const translations = {
                 { category: "Diseño", title: "Minimalism vs Maximalism", desc: "Análisis de tendencias: ¿Qué enfoque gana en la era de la atención fragmentada?", image: "/media/imagenes/oficina.png" },
                 { category: "Tecnología", title: "IA en Flujos de Trabajo Creativos", desc: "Nuestro equipo comparte cómo integramos GenAI manteniendo la esencia de la creatividad humana.", image: "/media/imagenes/equipo.png" }
             ]
+        },
+        portfolio: {
+            title: "Trabajos que Hablan por Sí Mismos",
+            subtitle: "Proyectos en branding, web, SEO y campañas digitales",
+            btn: "Ver Casos de Éxito",
+            items: [
+                { title: "Diseño Gráfico Impactante", desc: "Creación de identidad visual y materiales de marketing para una marca de moda." },
+                { title: "Desarrollo Web Moderno", desc: "Plataforma e-commerce responsiva para una tienda de productos artesanales." },
+                { title: "Estrategia SEO Exitosa", desc: "Mejora del posicionamiento orgánico para una empresa de servicios turísticos." },
+                { title: "Marketing Online Creativo", desc: "Campaña de publicidad en redes sociales con alto engagement para un festival." }
+            ]
+        },
+        about_page: {
+            hero_title: "Conoce Nuestra Agencia",
+            hero_subtitle: "Impulsando el éxito digital con pasión y experiencia.",
+            hero_btn: "Hablemos de tu proyecto",
+            history_title: "Nuestra Historia",
+            history_subtitle: "Desde nuestros inicios hasta hoy",
+            history_p1: "Fundada en 2015, nuestra agencia nació con la visión de transformar el panorama digital para empresas de todos los tamaños. Comenzamos como un pequeño equipo de entusiastas del marketing, y con el tiempo, hemos crecido hasta convertirnos en un referente en el sector, siempre manteniendo nuestra esencia de innovación y cercanía con el cliente.",
+            history_p2: "A lo largo de los años, hemos superado desafíos, celebrado éxitos y, lo más importante, hemos ayudado a innumerables marcas a alcanzar sus metas. Nuestra evolución es un reflejo de la confianza que nuestros clientes depositan en nosotros y de nuestro compromiso inquebrantable con la excelencia.",
+            mission_title: "Nuestra Misión",
+            mission_desc: "Empoderar a las marcas a través de estrategias digitales innovadoras y personalizadas, generando un impacto significativo y duradero en su crecimiento y reconocimiento.",
+            vision_title: "Nuestra Visión",
+            vision_desc: "Ser la agencia de marketing digital líder, reconocida por nuestra creatividad, resultados excepcionales y la capacidad de anticipar y moldear el futuro del panorama digital."
+        },
+        services_page: {
+            hero_title: "Nuestros Servicios Digitales",
+            hero_subtitle: "Soluciones integrales para impulsar tu presencia online.",
+            hero_btn: "Solicita una Consulta Gratuita",
+            discover_title: "Descubre Cómo Podemos Ayudarte",
+            feature_title: "Diseño Gráfico: Tu Marca, Nuestra Creatividad",
+            feature_subtitle: "Identidad Visual que Conecta",
+            feature_p1: "En nuestra agencia, entendemos que el diseño es más que estética; es la voz visual de tu marca. Creamos identidades visuales impactantes que resuenan con tu audiencia y transmiten tus valores. Desde logotipos memorables hasta manuales de marca completos, cada elemento se diseña con precisión y creatividad.",
+            feature_p2: "Nuestros servicios incluyen diseño de logotipos, branding corporativo, material publicitario (folletos, banners), diseño para redes sociales y mucho más. Trabajamos contigo para asegurar que cada pieza visual no solo sea atractiva, sino también estratégica."
         }
     },
 };
