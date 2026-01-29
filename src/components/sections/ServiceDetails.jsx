@@ -18,9 +18,11 @@ export const ServicesHero = () => {
                     <Text variant="lead" className="mb-10 opacity-70">
                         {t.services_page.hero_subtitle}
                     </Text>
-                    <Button className="bg-primary text-white px-12 h-16 rounded-full font-black uppercase tracking-widest shadow-2xl shadow-primary/30 hover:scale-105 active:scale-95 transition-all">
-                        {t.services_page.hero_btn}
-                    </Button>
+                    <div className="flex justify-center">
+                        <Button className="bg-primary text-white px-12 h-16 rounded-full font-black uppercase tracking-widest shadow-2xl shadow-primary/30 hover:scale-105 active:scale-95 transition-all">
+                            {t.services_page.hero_btn}
+                        </Button>
+                    </div>
                 </BlurFade>
             </div>
         </Section>
