@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMA STUDIO - Galería Multimedia</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="media/imagenes/logo.png" alt="IMA STUDIO Logo">
+            <h1>IMA Studio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Card 1: Equipo -->
+        <div class="card">
+            <picture>
+                <source
+                    srcset="media/imagenes/optimized/equipo-small-1x.webp, media/imagenes/optimized/equipo-small-2x.webp 2x"
+                    media="(max-width:734px)">
+                <source
+                    srcset="media/imagenes/optimized/equipo-medium-1x.webp, media/imagenes/optimized/equipo-medium-2x.webp 2x"
+                    media="(max-width:1068px)">
+                <source
+                    srcset="media/imagenes/optimized/equipo-large-1x.webp, media/imagenes/optimized/equipo-large-2x.webp 2x"
+                    media="(max-width:1440px)">
+                <img src="media/imagenes/optimized/equipo-xlarge-1x.webp" alt="Equipo IMA STUDIO">
+            </picture>
+            <h3>Nuestro Equipo</h3>
+            <p>Talento multidisciplinar.</p>
+        </div>
+
+        <!-- Card 2: Oficina -->
+        <div class="card">
+            <picture>
+                <source
+                    srcset="media/imagenes/optimized/oficina-small-1x.webp, media/imagenes/optimized/oficina-small-2x.webp 2x"
+                    media="(max-width:734px)">
+                <source
+                    srcset="media/imagenes/optimized/oficina-medium-1x.webp, media/imagenes/optimized/oficina-medium-2x.webp 2x"
+                    media="(max-width:1068px)">
+                <source
+                    srcset="media/imagenes/optimized/oficina-large-1x.webp, media/imagenes/optimized/oficina-large-2x.webp 2x"
+                    media="(max-width:1440px)">
+                <img src="media/imagenes/optimized/oficina-xlarge-1x.webp" alt="Oficinas Centrales">
+            </picture>
+            <h3>Oficinas</h3>
+            <p>Un espacio para la creatividad.</p>
+        </div>
+
+        <!-- Card 3: Reunión -->
+        <div class="card">
+            <picture>
+                <source
+                    srcset="media/imagenes/optimized/reunion-small-1x.webp, media/imagenes/optimized/reunion-small-2x.webp 2x"
+                    media="(max-width:734px)">
+                <source
+                    srcset="media/imagenes/optimized/reunion-medium-1x.webp, media/imagenes/optimized/reunion-medium-2x.webp 2x"
+                    media="(max-width:1068px)">
+                <source
+                    srcset="media/imagenes/optimized/reunion-large-1x.webp, media/imagenes/optimized/reunion-large-2x.webp 2x"
+                    media="(max-width:1440px)">
+                <img src="media/imagenes/optimized/reunion-xlarge-1x.webp" alt="Reunión Estratégica">
+            </picture>
+            <h3>Estrategia</h3>
+            <p>Planificación de proyectos.</p>
+        </div>
+
+        <!-- Card 4: Servicios -->
+        <div class="card">
+            <picture>
+                <source
+                    srcset="media/imagenes/optimized/servicios-small-1x.webp, media/imagenes/optimized/servicios-small-2x.webp 2x"
+                    media="(max-width:734px)">
+                <source
+                    srcset="media/imagenes/optimized/servicios-medium-1x.webp, media/imagenes/optimized/servicios-medium-2x.webp 2x"
+                    media="(max-width:1068px)">
+                <source
+                    srcset="media/imagenes/optimized/servicios-large-1x.webp, media/imagenes/optimized/servicios-large-2x.webp 2x"
+                    media="(max-width:1440px)">
+                <img src="media/imagenes/optimized/servicios-xlarge-1x.webp" alt="Servicios Digitales">
+            </picture>
+            <h3>Servicios</h3>
+            <p>Soluciones integrales.</p>
+        </div>
+
+        <!-- Card 5: Video Presentación (Large) -->
+        <div class="card" style="grid-column: span 2;">
+            <video controls playsinline poster="media/imagenes/optimized/oficina-large-1x.webp">
+                <source src="media/videos/video_corporativo_large.mp4" type="video/mp4">
+                Tu navegador no soporta vídeo HTML5
+            </video>
+            <h3>Presentación Corporativa</h3>
+            <p>Nuestra visión y misión (Alta Calidad).</p>
+        </div>
+
+        <!-- Card 6: Video Promocional (Standard) -->
+        <div class="card" style="grid-column: span 2;">
+            <video controls playsinline poster="media/imagenes/optimized/reunion-large-1x.webp">
+                <source src="media/videos/video_corporativo.mp4" type="video/mp4">
+                Tu navegador no soporta vídeo HTML5
+            </video>
+            <h3>Spot Promocional</h3>
+            <p>Campaña de marketing general.</p>
+        </div>
+
+        <!-- Card 7: Video Redes (Small) -->
+        <div class="card" style="grid-column: span 2;">
+            <video controls playsinline poster="media/imagenes/optimized/equipo-large-1x.webp">
+                <source src="media/videos/video_corporativo_small.mp4" type="video/mp4">
+                Tu navegador no soporta vídeo HTML5
+            </video>
+            <h3>Contenido para RRSS</h3>
+            <p>Versión optimizada para móviles y redes.</p>
+        </div>
+
+        <!-- Card 8: Video Marketing Extra -->
+        <div class="card" style="grid-column: span 2;">
+            <video controls playsinline poster="media/imagenes/optimized/servicios-large-1x.webp">
+                <source src="media/videos/video_marketing_extra.mp4" type="video/mp4">
+                Tu navegador no soporta vídeo HTML5
+            </video>
+            <h3>Campaña Viral</h3>
+            <p>Nuevo contenido de alto impacto.</p>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Imagen ampliada">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 IMA STUDIO. Ismael - Mario 2ºDAW</p>
+    </footer>
+
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Plyr Initialization
+            const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+            // Lightbox Logic
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxTitle = document.getElementById('lightbox-title');
+            const lightboxDesc = document.getElementById('lightbox-desc');
+            const closeBtn = document.querySelector('.close');
+
+            // Select all images inside cards that are NOT inside a video tag
+            const images = document.querySelectorAll('.card picture img');
+
+            images.forEach(img => {
+                img.addEventListener('click', function () {
+                    const card = this.closest('.card');
+                    const title = card.querySelector('h3').innerText;
+                    const desc = card.querySelector('p').innerText;
+
+                    // Get highest quality image source
+                    // In a real scenario we might parse currentSrc, but here we can just use the XL source logic or current source
+                    lightboxImg.src = this.currentSrc || this.src;
+
+                    lightboxTitle.innerText = title;
+                    lightboxDesc.innerText = desc;
+
+                    lightbox.style.display = "flex";
+                });
+            });
+
+            closeBtn.onclick = function () {
+                lightbox.style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                if (event.target == lightbox) {
+                    lightbox.style.display = "none";
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

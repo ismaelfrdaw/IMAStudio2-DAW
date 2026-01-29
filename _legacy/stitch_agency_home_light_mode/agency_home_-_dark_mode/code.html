@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IMA Studio Home - Dark Mode</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FF6B00","brand-gray": "#A3A3A3","background-dark": "#121212","surface-dark": "#1E1E1E",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer components {
+            .glass-card {
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .cta-gradient {
+                background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+            }
+        }
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display text-white antialiased overflow-x-hidden">
+<header class="sticky top-0 z-50 flex items-center bg-background-dark/80 backdrop-blur-md p-4 justify-between border-b border-white/5">
+<div class="flex items-center gap-2">
+<div class="flex flex-col leading-none">
+<span class="text-white text-xl font-black tracking-tighter italic">IMA</span>
+<span class="text-brand-gray text-[10px] font-bold tracking-[0.2em] uppercase">Studio</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="flex size-10 items-center justify-center rounded-lg bg-white/5 text-white transition-colors">
+<span class="material-symbols-outlined">light_mode</span>
+</button>
+<button class="flex size-10 items-center justify-center rounded-lg bg-white/5 text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col">
+<section class="@container">
+<div class="p-0 @[480px]:p-4">
+<div class="flex min-h-[520px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:rounded-xl items-start justify-end px-6 pb-16 @[480px]:px-10" style='background-image: linear-gradient(rgba(18, 18, 18, 0.4) 0%, rgba(18, 18, 18, 0.98) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC0xZ9T6y5CLPEQIxZTzVRjO_EMZKwETeZ7HulSP-KJZLDo_BmGAXrn0u_Ub3tFH3066TbpzYQ97UcVpwIW6zlBcoLfxeE2fDgAeiqWUtZ1qbszEOPgIOoain9YT-c3NiafLM2GHI4LF01og9o_pQ-__ezkZfHzUcfLyyDO8_8OegfbcuHVX_Z-lCsCtZaMtshUjE_otJOKvVuheAhhfm03DWQT86PAzI4KiDykeSHIzcGG6xur8lVq5xoQ-3HgGvBk8-LrY2O8T7k");'>
+<div class="flex flex-col gap-4 text-left max-w-lg">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
+<span class="size-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-primary text-xs font-bold uppercase tracking-widest">Digital Excellence</span>
+</div>
+<h1 class="text-white text-5xl font-black leading-[1.1] tracking-[-0.04em] @[480px]:text-6xl uppercase">
+                            Design <span class="text-primary">Driven</span> Results
+                        </h1>
+<p class="text-brand-gray text-base font-normal leading-relaxed @[480px]:text-lg">
+                            IMA STUDIO crafts high-performance digital experiences for ambitious brands ready to scale with a professional, industrial-chic edge.
+                        </p>
+</div>
+<div class="flex flex-wrap gap-4 w-full sm:w-auto">
+<button class="flex flex-1 sm:flex-none min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold transition-transform active:scale-95">
+                            Get Started
+                        </button>
+<button class="flex flex-1 sm:flex-none min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-white/5 backdrop-blur-md border border-white/10 text-white text-base font-bold transition-all hover:bg-white/10">
+                            Our Portfolio
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-8 px-4">
+<p class="text-center text-brand-gray text-xs font-bold uppercase tracking-[0.2em] mb-6">Strategic Partners</p>
+<div class="flex flex-wrap justify-center items-center gap-8 opacity-40 grayscale invert">
+<div class="h-8 w-24 bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0EjWiuzMyQHG6VzJ3S6uPCok-25ygx53nK5_4CSs-IB14JFSqETnbafAHVkMz1SO-oNthMGxcgX9ImQUPWZoH8FozrIu-QJyGhCU7-KuXD1azeOU4cSHWYl0z2gLfvhznP0nbO6XX9rk3GvngE0Ze-9lEZ4yAVuRKO7waPGu5S7Dr54V3YnstbKpvtIz1C-DE6Ktl0FRSWAj8OISW0fuYVplh1HAL-NFWXiZkrz7mobPjae9xKreewATWp6rvfkZzi_Xe898DBn0");'></div>
+<div class="h-8 w-24 bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfeny4XHeb6f1iZHU8emm7Mop11y_Pnx1JVehvAU5vGW-q2CnhphBc6omosdmlA1fnYDBRlqKONVxN4BtVtQ0FWMLxs0pVIMmS0tipY53PzyRiANH8fCYqipNqrRN_WHxIHFV8QjFw3LrOPyO2rtIih_MIoFv89xu6-_4M3Lxm6-p7xXVD5X3eIUGBDJW-Bu6v38zmhCzh5rPq9pfLcAdbuFS6uuCZV-hlJsa7m4ZA31fO_-lP-pWwgVyrtV3o91U4x45AcPl-bXM");'></div>
+<div class="h-8 w-24 bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC3WM8nDk9TthIqHyg2Wf9OEDIEolCehKpgY8VN6BFcgQNYRPmLEJmS_hPMCmVCVuYZaQtawSdqHYWtIMmxAuroq6kOnR60WX717bahMEMFl-ahUVGZsGrZJZmOdaQJVD_u430pf7f3qt0S3h9jD_fWKug3OoSMKBaUnKl8NgO4z8rPJEcXpWznl7awzPDh7lXQiphI22MVNeAcwRmUMHNlnDnPtRc4cVTmZRck949IsnCjGDBA5zdvh79541wq4JJMrEmSQbFjN84");'></div>
+<div class="h-8 w-24 bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXtzNYfMcylL0vOXE8EbuIxLMlT-_7GW16bb0Hfd0awWQJq_fywvtGyGRznclm0m0hcuhK6XDZoo6zhzRLntYHRPkhkcNCvV7CoCoSYEoH6EWALq6jPL5kso-SjEu-KVuiSf1BCw20FpWgiWtM5pwHOK8PJQE-uhJaHMfZ1Rm_Oq5aDoOzTN772ZV2JyWEfuvXf64euNS6XXmYunAejpc8PbCfR6yOL-g4gHFzoOfW8hQXcs2BlCcbhHgDrewAYFweezxxHJlukvs");'></div>
+</div>
+</section>
+<div class="px-4 pt-8">
+<h3 class="text-white text-2xl font-black leading-tight tracking-tight border-l-4 border-primary pl-4">Agency Services</h3>
+<p class="text-brand-gray mt-2 text-sm pl-5">Tailored solutions for the digital-first economy.</p>
+</div>
+<section class="grid grid-cols-1 gap-4 p-4">
+<div class="glass-card p-5 rounded-xl flex flex-col gap-4 border-white/5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-2 flex-1 pr-4">
+<div class="text-primary mb-1">
+<span class="material-symbols-outlined text-3xl">insights</span>
+</div>
+<p class="text-white text-lg font-bold leading-tight">Digital Strategy</p>
+<p class="text-brand-gray text-sm leading-relaxed">Advanced market positioning powered by real-time consumer data and industrial-grade roadmaps.</p>
+</div>
+<div class="w-20 h-20 bg-center bg-no-repeat bg-cover rounded-lg shrink-0 border border-white/10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD3covEH1K8J94i2ueC7pGVYUA--a4KIXrwiNzhIQTGMhpVbE9KHVKNMTJFvGeqe6vID7DGviZMdcfUfGuiAGs74-BghbdNg4S2gsRPfaSdY3wmF3RhxBfWuShzQf-b8Y6Va9HCyFDznQypquYRJ2hiAhECAH7LwZSMgoZLIq6uOh1O2e-rGoLcR3w5-d4lGZUKqpD7SCkwpox8JJcz8-pVglifXq078QAwq_PFmDjVHxjIchkvOlP4l_j8h7IFe--HahJI_crCsfA");'></div>
+</div>
+</div>
+<div class="glass-card p-5 rounded-xl flex flex-col gap-4 border-white/5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-2 flex-1 pr-4">
+<div class="text-primary mb-1">
+<span class="material-symbols-outlined text-3xl">content_copy</span>
+</div>
+<p class="text-white text-lg font-bold leading-tight">Content Studio</p>
+<p class="text-brand-gray text-sm leading-relaxed">High-impact creative assets that resonate across global platforms with professional precision.</p>
+</div>
+<div class="w-20 h-20 bg-center bg-no-repeat bg-cover rounded-lg shrink-0 border border-white/10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAW1iiCvuIX246cMtwtwapS_mdVDJr1nrLXnEPMO60PxG8yTYZM_ZvMbbk2RaKGB2j_mb74e90zDaPmVGhDpw5TG20pBc_ZZ__jt5iZJfVVV9ixeD00j0e_rofAeppVJ7QxOOQFE9ta_dfB4t72_mu3HPqcaCr1C1SLEuVPXkFzEw5xDyjGd4OhOKhjpoxpBqs4sC4wdH2CFyLCK70wB8pyV1n7yFlTTCi-IxnbnIWatmrkqigo6eyE_IfRl-YYYnyXbbZM51uCF8w");'></div>
+</div>
+</div>
+<div class="glass-card p-5 rounded-xl flex flex-col gap-4 border-white/5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-2 flex-1 pr-4">
+<div class="text-primary mb-1">
+<span class="material-symbols-outlined text-3xl">trending_up</span>
+</div>
+<p class="text-white text-lg font-bold leading-tight">Performance</p>
+<p class="text-brand-gray text-sm leading-relaxed">Metrics-driven growth and SEO-focused engineering to dominate your market landscape.</p>
+</div>
+<div class="w-20 h-20 bg-center bg-no-repeat bg-cover rounded-lg shrink-0 border border-white/10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkfQTUxkRkbXtfxDF13vTQ-sVsco6-v-S0F8Ci9rqvzCYxVKu18JtqB_mVs_N8oc_DBoyCYOzzBNcCkkuMMOs6MalotkEe6oWTBXQon_SE21ljvqYR21tZddH6PkCKwoOtqg4DQA2KosI1bh7YSn75J1VTCbRIdGGpiSHU9LkaGWHac2YyEBQ6dIe8lg_3EFqa0Wnx0smWO-KWZa60nNzXx2JDwGLB496_x3H-18yEEB4L30RkIawXhtO5ftZHugML6wuREu7U9A4");'></div>
+</div>
+</div>
+</section>
+<section class="p-4">
+<div class="cta-gradient p-8 rounded-2xl relative overflow-hidden flex flex-col items-center text-center gap-6 border border-white/5">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-3xl rounded-full -mr-16 -mt-16"></div>
+<div class="absolute bottom-0 left-0 w-32 h-32 bg-white/5 blur-3xl rounded-full -ml-16 -mb-16"></div>
+<h2 class="text-white text-3xl font-black tracking-tight z-10 uppercase">Ready to Transform?</h2>
+<p class="text-brand-gray text-sm leading-relaxed max-w-xs z-10">
+                    Partner with IMA STUDIO to redefine your digital presence and scale your vision.
+                </p>
+<button class="z-10 bg-primary text-white px-8 h-12 rounded-lg font-bold text-base transition-transform active:scale-95 shadow-xl">
+                    Contact Our Studio
+                </button>
+</div>
+</section>
+<footer class="bg-surface-dark mt-12 p-8 border-t border-white/5">
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex flex-col leading-none">
+<span class="text-white text-xl font-black tracking-tighter italic">IMA</span>
+<span class="text-brand-gray text-[10px] font-bold tracking-[0.2em] uppercase">Studio</span>
+</div>
+<p class="text-brand-gray text-sm leading-relaxed">
+                        Leading digital innovation and industrial-chic brand excellence. Headquartered in Tokyo, serving the world.
+                    </p>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col gap-3">
+<p class="font-bold text-white text-sm uppercase tracking-widest">Expertise</p>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">Strategy</a>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">Content</a>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">Growth</a>
+</div>
+<div class="flex flex-col gap-3">
+<p class="font-bold text-white text-sm uppercase tracking-widest">IMA</p>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">Work</a>
+<a class="text-brand-gray text-sm hover:text-primary transition-colors" href="#">Connect</a>
+</div>
+</div>
+<div class="flex justify-between items-center pt-8 border-t border-white/5">
+<p class="text-brand-gray/50 text-xs">© 2024 IMA STUDIO</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-brand-gray/50 text-xl cursor-pointer hover:text-primary transition-colors">language</span>
+<span class="material-symbols-outlined text-brand-gray/50 text-xl cursor-pointer hover:text-primary transition-colors">public</span>
+</div>
+</div>
+</div>
+<div class="h-8"></div>
+</footer>
+</main>
+
+</body></html>
