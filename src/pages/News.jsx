@@ -36,9 +36,11 @@ const News = () => {
                     </span>
                     <Heading level={1}>{t.news.title}</Heading>
                     <Text className="mt-4 max-w-2xl mx-auto mb-10">{t.news.subtitle}</Text>
-                    <button className="bg-[#2b65e2] text-white px-8 py-4 rounded-xl font-bold text-sm shadow-xl hover:bg-blue-600 transition-colors uppercase tracking-widest">
-                        Suscríbete a Nuestra Newsletter
-                    </button>
+                    <div className="flex justify-center">
+                        <button className="bg-charcoal dark:bg-gray-800 text-white px-10 py-4 rounded-full font-black text-xs shadow-2xl hover:bg-primary transition-all uppercase tracking-[0.2em] border border-white/10">
+                            Suscríbete a Nuestra Newsletter
+                        </button>
+                    </div>
                 </FadeIn>
 
                 <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 text-left">
