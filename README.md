@@ -30,7 +30,9 @@ Para ejecutar el proyecto localmente, sigue estos pasos:
 
 ## Sistema de Diseño
 
-El proyecto sigue una identidad corporativa sólida basada en los siguientes principios de diseño:
+El proyecto sigue una identidad corporativa sólida detallada en el siguiente sistema de diseño:
+
+🔗 **[Sistema de Diseño en Figma](https://www.figma.com/design/j20b2nCAz0jdu2PZUG1Kca/Sistema-de-dise%C3%B1o-IMA-STUDIO?node-id=0-1&t=vt1qOjLokUvyneNw-1&authuser=1)**
 
 ### 🎨 Paleta de Colores
 | Color | Hexadecimal | Uso sugerido |
