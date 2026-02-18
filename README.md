@@ -1,16 +1,30 @@
-# React + Vite
+# IMA Studio - Proyecto React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto moderno desarrollado con React y Vite, diseñado para ofrecer una experiencia web rápida y fluida.
 
-Currently, two official plugins are available:
+## Autores
+* **Ismael Franco Ruiz**
+* **Mario Crespo Alonso**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+* **React**: Biblioteca para construir interfaces de usuario.
+* **Vite**: Herramienta de construcción ultrarrápida para proyectos web.
+* **Tailwind CSS**: Framework de CSS para diseños modernos y responsivos.
+* **Framer Motion**: Librería para animaciones fluidas.
 
-## React Compiler
+## Configuración del Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-## Expanding the ESLint configuration
+1. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+3. Abre el navegador en [http://localhost:5173](http://localhost:5173).
+
